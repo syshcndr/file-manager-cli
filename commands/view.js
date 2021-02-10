@@ -1,6 +1,6 @@
 const viewer = (dirName, mode) => {
   if (mode == "tree") {
-    console.log(`organize was called for this`, dirName);
+    console.log(`tree was called for this`, dirName);
   } else if (mode == "flat") {
     console.log(`flat was called for this`, dirName);
   } else {
