@@ -61,16 +61,12 @@ function organize(src, dest) {
   }
 }
 
-const organizer = (src, dest) => {
+function organizeFiles(src, dest) {
   let destFolderPath = path.join(src, "Organized_files");
   if (fs.existsSync(destFolderPath) == false) {
     fs.mkdirSync(destFolderPath);
-  } else if (src == undefined) {
-    src = process.cwd();
   }
   organize(src, destFolderPath);
-};
+}
 
-module.exports = {
-  organizer: organizer,
-};
+organizeFiles(process.argv[2]);

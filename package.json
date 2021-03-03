@@ -1,0 +1,25 @@
+{
+  "name": "myutil",
+  "version": "1.0.0",
+  "description": "filemanager",
+  "main": "mycli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syshcndr/file-manager-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "syshcndr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syshcndr/file-manager-cli/issues"
+  },
+  "homepage": "https://github.com/syshcndr/file-manager-cli#readme",
+  "bin": {
+    "myutil": "mycli.js"
+  }
+}
